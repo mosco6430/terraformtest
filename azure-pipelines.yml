@@ -13,8 +13,8 @@ steps:
   displayName: 'Terraform : INIT'
   inputs:
     backendServiceArm: 'Jonnychipz-TFSPN'
-    backendAzureRmResourceGroupName: 'jonnychipz-infra'
-    backendAzureRmStorageAccountName: jonnychipztstate
+    backendAzureRmResourceGroupName: 'hr-dev-myrg'
+    backendAzureRmStorageAccountName: hrdevmyrgstorage
     backendAzureRmContainerName: tstate
     backendAzureRmKey: '77Q4LUB5o9wRdbPYDt+0kGZP+L8Sj9E/FNXg7lZBQS5z3mLod5cyan4wA19CR1SmlqIRUFQfhuQrPVaGzNhjGw=='
 
